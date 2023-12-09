@@ -46,24 +46,21 @@ header {
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    gap: 1.5rem;
+    align-items: center;
 }
 
-.home-text {
-    margin-left: 0.5rem;
+.home iframe {
+    margin: 0.5rem 0 1.4rem;
 }
-  
-.home-text h1 {
+
+.home h1 {
     font-size: 3.4rem;
     letter-spacing: 1px;
 }
   
-.home-text p {
+.home p {
     font-size: 0.938rem;
-    margin: 0.5rem 0 1.4rem;
-}
-
-.home-text a {
-    margin: 0.2rem;
 }
   
 .about {
