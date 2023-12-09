@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 100px;
+}
+  
+img {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 100px;
+    transition: 0.5s linear;
+    background: white;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    margin: 0.3rem;
+}
+  
+.logo img {
+    width: 100px;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+}
+
+.home-text {
+    margin-left: 0.5rem;
+}
+  
+.home-text h1 {
+    font-size: 3.4rem;
+    letter-spacing: 1px;
+}
+  
+.home-text p {
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1.4rem;
+}
+
+.home-text a {
+    margin: 0.2rem;
+}
+  
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+  
+.about-img img{
+    border-radius: 0.5rem;
+}
+  
+.about-text h2 {
+    font-size: 1.8rem;
+}
+  
+.about-text p {
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1.1rem;
+}
+  
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+  
+.destination-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+  
+.destination-box .box h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0.5rem 0 0.5rem;
+}
+
+.foto {
+    align-items: center;
+    border-radius: 3rem;
+}
+
+.newsletter_section{
+    width: 100%;
+    float: left;
+    background-color: #000;
+    height: auto;
+    padding: 40px 0px;
+}
+
+.newsletter_text{
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-size: 40px;
+}
+
+.tempor_text{
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.mail_bt_main{
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+
+.mail_text {
+    width: 60%;
+    float: left;
+    color: #000;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border: 0px;
+    height: auto;
+}
+
+.subscribe_bt{
+    width: 150px;
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #282828;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.subscribe_bt a{
+    color: #ffffff;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+}
+  
+.footer-box h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  
+.social a .bx {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    background: black;
+    border-radius: 0.3rem;
+}
+  
+form label {
+    display: block;
+    font-weight: bold;
+}
+  
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+form input[type="submit"] {
+    background-color: black;
+    border-radius: 0.5rem;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+.copyright {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+}
